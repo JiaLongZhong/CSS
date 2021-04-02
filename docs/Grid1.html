@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+</head>
+<style>
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 1em;
+         grid-row-gap: 1em;
+         */
+        grid-gap:1em;
+    }
+
+    .wrapper > div {
+        background: #eee;
+        padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd) {
+        background: #ddd;
+    }
+</style>
+<body>
+<div class="wrapper">
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis mauris ligula, ac pharetra lectus
+        dignissim nec. Duis vitae fermentum turpis, sagittis sagittis lacus. Morbi gravida dui vel sem mollis, eget
+        eleifend dui sagittis. Nunc faucibus posuere laoreet. Praesent nibh diam, cursus at accumsan vitae, lacinia
+        lobortis mi. Morbi cursus vel neque a posuere. Aenean feugiat, ante vel fermentum eleifend, orci augue volutpat
+        eros, sit amet faucibus sem eros nec ipsum. Nam libero nunc, volutpat eget turpis at, aliquet semper felis.
+        Nullam consequat posuere magna at rhoncus. Suspendisse potenti. Quisque ut urna congue, dictum felis eget,
+        bibendum ligula. Cras euismod urna nisi, vitae convallis enim aliquet in.
+    </div>
+
+    <div>Mauris rhoncus pretium mauris, vitae efficitur ligula ultricies a. Ut vitae orci sapien. Donec sit amet velit
+        nisi. In aliquam gravida iaculis. Sed at porta ligula, nec tempus velit. Vivamus a fringilla urna. Vestibulum
+        facilisis sem lorem, eu sollicitudin quam varius ut. Pellentesque pharetra augue felis, nec tempus ex volutpat
+        non. Ut cursus egestas consectetur.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis mauris ligula, ac pharetra lectus
+        dignissim nec. Duis vitae fermentum turpis, sagittis sagittis lacus. Morbi gravida dui vel sem mollis, eget
+        eleifend dui sagittis. Nunc faucibus posuere laoreet. Praesent nibh diam, cursus at accumsan vitae, lacinia
+        lobortis mi. Morbi cursus vel neque a posuere. Aenean feugiat, ante vel fermentum eleifend, orci augue volutpat
+        eros, sit amet faucibus sem eros nec ipsum. Nam libero nunc, volutpat eget turpis at, aliquet semper felis.
+        Nullam consequat posuere magna at rhoncus. Suspendisse potenti. Quisque ut urna congue, dictum felis eget,
+        bibendum ligula. Cras euismod urna nisi, vitae convallis enim aliquet in.
+    </div>
+
+    <div>Mauris rhoncus pretium mauris, vitae efficitur ligula ultricies a. Ut vitae orci sapien. Donec sit amet velit
+        nisi.
+        In aliquam gravida iaculis. Sed at porta ligula, nec tempus velit. Vivamus a fringilla urna. Vestibulum
+        facilisis
+        sem lorem, eu sollicitudin quam varius ut. Pellentesque pharetra augue felis, nec tempus ex volutpat non. Ut
+        cursus
+        egestas consectetur.
+    </div>
+
+</div>
+</body>
+</html>
